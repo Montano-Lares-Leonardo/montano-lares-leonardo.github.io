@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("assets/ocean.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  color: #fff;
+  padding: 2rem 1rem;
+}
+
+
+.cv {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.twoinone{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 1.5rem;
+}
+
+.card{
+  font-size: 1.75rem;
+  line-height: 1;
+  background: #1e293ba9;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  border: 2px solid #f1f5f9b4;
+  gap: 1.5rem;
+}
+
+h1{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+h2{
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.2rem solid #8abeffbd;
+  display: inline-block;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #8abeffbd;
+  color: #fff;
+  font-weight: bold;
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.role {
+  color: #8abeffbd;
+  font-weight: bold;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.concept {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.25rem;
+  font-size: 0.9rem;
+  color: #bfc9d7;
+}
+
+.percen {
+  justify-content: right
+}
+
+.bar {
+  height: 10px;
+  background: #1e293ba9;
+  border-radius: 99px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+  border: 1px solid #f1f5f9b4;
+}
+
+.fill {
+  height: 100%;
+  width: 0;
+  background: #8abeffbd;
+  border-radius: 99px;
+  transition: width 1.2s;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+
+a:link, a:visited{
+  color: #bfc9d7;
+  text-decoration: none;
+}
+
+.project {
+  border: 1px solid #f1f5f9b4;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  background-color: #1e293ba9;
+}
+
+.project:hover {
+  transform: translateY(-3px);
+}
+
+.project h3 {
+  color: #fff;
+  font-size: 1.05rem;
+  margin-bottom: 0.2rem;
+}
+
+.project-meta {
+  font-size: 0.7rem;
+  color: #bfc9d7;
+  margin-bottom: 0.5rem;
+}
+
+.project p {
+  font-size: 0.92rem;
+  margin-bottom: 0.75rem;
+}
+
+.imgcont {
+  width: 13rem;
+  height: 6rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #bfc9d7;
+  padding: 0.5rem 0 1rem;
+}

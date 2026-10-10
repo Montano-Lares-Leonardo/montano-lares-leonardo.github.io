@@ -1,1 +1,144 @@
-# montano-lares-leonardo.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV 🐈︎ Montaño Lares Leonardo</title>
+  <link rel="icon" type="image/x-icon" href="assets/shaya.png">
+  <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <main class="cv">
+    <img url="">
+    <div class="twoinone">
+    <div>
+      <div class="card">
+        <div class="avatar">𓃠</div>
+        <h1>Montaño Lares Leonardo</h1>  
+        <div class="role">Estudiante Ingenieria en de Sistemas de Información</div>
+        <div class="concept"><h1>✉︎</h1>a224204735@unison.mx</div>
+        <div class="concept"><h1>☎</h1>+52 (662) 385-4742</div>
+        <div class="concept"><h1>🏠︎</h1>Hermosillo, Sonora, Mexico</div>
+        <div class="concept"><h1>🗣</h1>Español, Ingles</div>
+        <div class="concept"><h1>🎂︎</h1>25/5/2006</div>
+      </div>
+
+      <div class="card" style="margin-top: 1.5rem;">    
+        <h2>Intereses Personales</h2>
+        <div class="concept"><h1>💻︎</h1>Programación</div>
+        <div class="concept"><h1>🖼</h1>Dibujo y Diseño Visual</div>
+        <div class="concept"><h1>🎮︎</h1>Video Juegos</div>
+        <div class="concept"><h1>🍽</h1>Gastronomia</div>
+        <div class="concept"><h1>🎎︎</h1>Antropologia</div>
+        <div class="concept"><h1>🎭︎</h1>Psicologia</div>
+        <div class="concept"><h1>🖧</h1>Redes e Internet</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Lenguajes de Programación / Otras Herramientas</h2>
+      <div class="skills">
+        <div class="twoinone"><div class="concept"><h1>🖽</h1>HTML</div><div class="concept percen">65%</div></div>
+        <div class="bar"><div class="fill" data-level="65"></div></div>
+
+        <div class="twoinone"><div class="concept"><h1>🖌</h1>CSS</div><div class="concept percen">65%</div></div>
+        <div class="bar"><div class="fill" data-level="65"></div></div>
+
+        <div class="twoinone"><div class="concept"><h1>💾︎</h1>MySQL</div><div class="concept percen">60%</div></div>
+        <div class="bar"><div class="fill" data-level="60"></div></div>
+
+        <div class="twoinone"><div class="concept"><h1>🗗</h1>Figma</div><div class="concept percen">55%</div></div>
+        <div class="bar"><div class="fill" data-level="55"></div></div>
+
+        <div class="twoinone"><div class="concept"><h1>🤖︎</h1>GDScript / Godot</div><div class="concept percen">55%</div></div>
+        <div class="bar"><div class="fill" data-level="55"></div></div>
+
+        <div class="twoinone"><div class="concept"><h1>🐘︎</h1>PostgreSQL</div><div class="concept percen">55%</div></div>
+        <div class="bar"><div class="fill" data-level="55"></div></div>
+
+        <div class="twoinone"><div class="concept"><h1>☕︎</h1>Java</div><div class="concept percen">45%</div></div>
+        <div class="bar"><div class="fill" data-level="45"></div></div>
+
+        <div class="twoinone"><div class="concept"><h1>🗔</h1>JavaScript</div><div class="concept percen">40%</div></div>
+        <div class="bar"><div class="fill" data-level="40"></div></div>
+
+        <div class="twoinone"><div class="concept"><h1>🖥</h1>VirtualBox</div><div class="concept percen">40%</div></div>
+        <div class="bar"><div class="fill" data-level="40"></div></div>
+
+        <div class="twoinone"><div class="concept"><h1>🖻</h1>Blender</div><div class="concept percen">35%</div></div>
+        <div class="bar"><div class="fill" data-level="35"></div></div>
+
+        <div class="twoinone"><div class="concept"><h1>💽︎</h1>C</div><div class="concept percen">35%</div></div>
+        <div class="bar"><div class="fill" data-level="35"></div></div>
+
+        <div class="twoinone"><div class="concept"><h1>🐍︎</h1>Python</div><div class="concept percen">35%</div></div>
+        <div class="bar"><div class="fill" data-level="35"></div></div>      
+        
+        <div class="twoinone"><div class="concept"><h1>🖾</h1>PHP</div><div class="concept percen">5%</div></div>
+        <div class="bar"><div class="fill" data-level="5"></div></div>        
+      </div>
+    </div>
+    </div>
+
+    <section class="card">
+      <h2>Proyectos</h2>
+      <div class="projects">
+
+        <a class="project" href="https://github.com/Shampoohue/Proyecto-final-Bases-Desarrollo-IV-inventario-abarrotero-con-API-REST" title="Abarrotero API REST">
+          <h3>Abarrotero API REST</h3>
+          <div class="project-meta">2026 ~ Desarrollo de Sistemas IV</div>
+          <p>Sistema de gestion de productos para una tienda creada con Flask de Python y SQLite.</p>
+          <div class="imgcont" style="background-image: url('assets/proy1.png');"></div>
+        </a>
+
+        <a class="project" href="https://github.com/Montano-Lares-Leonardo/generador-de-alumnos-bases-de-datos-II" title="Generador de Alumnos">
+          <h3>Generador de Alumnos</h3>
+          <div class="project-meta">2026 ~ Bases de Datos II</div>
+          <p>Genera una cantidad dada de alumnos, y los pone en los formatos de MySQL/MariaDB, PostgreSQL, CSV o JSON.</p>
+          <div class="imgcont" style="background-image: url('assets/genalum.png');"></div>
+        </a>
+
+        <a class="project" href="https://github.com/Montano-Lares-Leonardo/proyectofinal-desarrollo-de-sistemas-III-foro-flan" title="Foro Flan">
+          <h3>Foro Flan</h3>
+          <div class="project-meta">2025 ~ Desarrollo de Sistemas III</div>
+          <p>Una aplicación de JavaFX conectada con una base de datos de MySQL que permite la creación de usuarios, publicaciones y respuestas en un foro.</p>
+          <div class="imgcont" style="background-image: url('assets/flan.png');"></div>
+        </a>
+
+        <a class="project" href="https://github.com/esaxel123/CRUDbycicle-proyecto-final-equipo2" title="Manejador de Ventas de Bicicletas">
+          <h3>Manejador de Ventas de Bicicletas</h3>
+          <div class="project-meta">2025 ~ Bases de Datos</div>
+          <p>Una aplicación para almacenar informacion sobre la renta de bicicletas utilizando una base de datos de PostgreSQL.</p>
+          <div class="imgcont" style="background-image: url('assets/bici.png');"></div>
+        </a>
+
+        <a class="project" href="https://github.com/Montano-Lares-Leonardo/sistema-de-RPG" title="Sistema de RPG">
+          <h3>Sistema de RPG</h3>
+          <div class="project-meta">2025 ~ Desarrollo de Sistemas II</div>
+          <p>Una plantilla/sistema hecha con Java para hacer un juego de RPG que se juega con la terminal.</p>
+          <div class="imgcont" style="background-image: url('assets/rpg.png');"></div>
+        </a>
+
+        <a class="project" href="https://github.com/Montano-Lares-Leonardo/sitio-web-restaurante" title="Generador de Alumnos">
+          <h3>Sitio Web de Restaurante</h3>
+          <div class="project-meta">2023 ~ Programación III</div>
+          <p>Un sitio web para un restaurante en el que se pueden añadir platillos a una base de datos. Hecho con HTML, JavaScript, CSS, PHP y MySQL.</p>
+          <div class="imgcont" style="background-image: url('assets/restoran.png');"></div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    window.addEventListener('load', () => {
+      const fills = document.querySelectorAll('.fill');
+      fills.forEach((bar, index) => {
+        const level = bar.getAttribute('data-level');
+        setTimeout(() => {
+          bar.style.width = level + '%';
+        }, 150 + index * 100);
+      });
+    });
+  </script>
+</body>
+</html>

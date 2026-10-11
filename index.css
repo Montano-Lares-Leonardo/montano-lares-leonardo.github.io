@@ -154,9 +154,11 @@ a:link, a:visited{
   background-position: center;
 }
 
-.footer {
-  text-align: center;
-  font-size: 0.8rem;
-  color: #bfc9d7;
-  padding: 0.5rem 0 1rem;
+@media (max-width: 600px){
+  h1 {
+    display: none;
+  }
+  h1.show {
+    display: inline;
+  }
 }

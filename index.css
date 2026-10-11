@@ -161,4 +161,7 @@ a:link, a:visited{
   h1.show {
     display: inline;
   }
+  .concept{
+    margin: 0.3rem;
+  }
 }

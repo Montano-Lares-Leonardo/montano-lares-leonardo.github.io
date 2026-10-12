@@ -26,7 +26,6 @@ body {
 
 .twoinone{
   display: grid;
-  grid-template-columns: 2fr 3fr;
   gap: 1.5rem;
 }
 
@@ -79,8 +78,9 @@ h2{
 .concept {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
+  align-content: center;
   gap: 0.5rem 1.25rem;
   font-size: 0.9rem;
   color: #bfc9d7;
@@ -109,7 +109,7 @@ h2{
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1.25rem;
 }
 
@@ -162,7 +162,20 @@ a:link, a:visited{
     display: inline;
   }
   .concept{
-    margin: 0.3rem;
-    display: list-item;
+    line-height: 2rem;
+  }
+
+  .twoinone.skill1{
+    grid-template-columns: 2fr 3fr;
+  }
+}
+
+@media (min-width: 600px) {
+  .w {
+    display: none;
+  }
+
+  .twoinone{
+    grid-template-columns: 2fr 3fr;
   }
 }
